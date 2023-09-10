@@ -1,0 +1,9 @@
+plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+}
+
+dependencies {
+    implementation project(':infrastructure')
+    implementation project(':adapter-model')
+    implementation project(':domain')
+}
